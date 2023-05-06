@@ -1,0 +1,35 @@
+<%- include('partials/head') %>
+<header>
+    <div class="log_in_page_header"><img src="images/shopping_bag.png" alt="Shopping Bag"><h1 class="SIMPLE_Orange">SIMPLE</h1><h1>Log In</h1></div>
+    <nav class="log_in_page_nav">
+        <a href="/RegisterVendor">Become our vendor</a>
+        <p>|</p>
+        <a href="">Become our customer</a>
+        <p>|</p>
+        <a href="">Become our delivery boys</a>
+    </nav>
+</header>
+<main class="log_in_page_main">
+    <h1 class="SIMPLE_Orange"><img src="images/shopping_bag.png" alt="Shopping Bag">SIMPLE OUTLET</h1>
+    <form action="" method="post" class="log_in_form">
+        <h1>Log In</h1>
+        <label for="username">
+            <input type="text" id="username" placeholder="Username"/>
+        </label>
+        <label for="password">
+            <input type="password" id="username" placeholder="Password"/>
+        </label>
+        <button>
+            Log In
+        </button>
+        <div>
+            <span></span>
+            <p>New to SIMPLE ?</p>
+            <span></span>
+        </div>
+        <button id="sign_in_button">
+            Sign In
+        </button>
+    </form>
+</main>
+<%- include('partials/footer') %>

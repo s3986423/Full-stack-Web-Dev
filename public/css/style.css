@@ -1,0 +1,326 @@
+/*header and footer css*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D9D9D9;
+}
+.black {
+    position: relative;
+    background-color: black;
+    width: 100%;
+}
+.text_container_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_text_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 50%;
+    height: 1%;
+}
+#log_and_sign_in {
+    width: 15%;
+    justify-content: flex-end;
+}
+.header_text_container > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 1%;
+}
+.header_text_container > p {
+    display: flex;
+    color: #FFFFFF;
+    margin: 0% 1%;
+}
+.header_logo {
+    display: flex;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin: 10px 10px;
+}
+.header_logo > a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.search_bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height: 40px;
+}
+.search_bar > input {
+    width: 90%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+}
+.search_bar > button {
+    display: flex;
+    width: 6%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+#logo_and_search_bar_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search_bar > button > img {
+    width: 100%;
+    height: 100%;
+}
+#logo_and_search_bar_container > a {
+    width: 40px;
+    height: 40px;
+}
+#logo_and_search_bar_container > a > img {
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.footer > h1 {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0px;
+    color: white;
+}
+.footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.footer > div > h1 {
+    font-size: 20px;
+    color: white;
+}
+.footer > p {
+    margin: 5px 0px;
+    color: white;
+}
+
+/*from here it's Register Vendor page css*/
+.sign_up_banner {
+    display: flex;
+    flex-direction: column;
+}
+.sell_with_SIMPLE {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #034266;
+}
+.sell_with_SIMPLE > h1 {
+    color: #FFFFFF;
+}
+.sell_with_SIMPLE > button {
+    position: relative;
+    left: 47px;
+    height: 40px;
+    width: 20%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0;
+    background-color: #DE4F11;
+    cursor: pointer;
+}
+.become_an_simple_seller {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #91A7C8;
+    height: 300px;
+}
+.become_an_simple_seller > h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+    margin: 0px;
+}
+.become_an_simple_seller > button {
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 30px;
+    background-color: #DE4F11;
+    cursor: pointer;
+    position: relative;
+    right: 40px;
+}
+.become_an_simple_seller > img {
+    height: 270px;
+    width: 270px;
+}
+/*rememeber to change*/
+.why_with_SIMPLE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why_with_SIMPLE > h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.scrollable {
+    overflow: auto;
+    white-space: nowrap;
+}
+.div_container {
+    width: 100%;
+    height: 400px;
+}
+.div_container > div {
+    display: inline-block;
+    background-color: #034266;
+    margin: 10px;
+    width: 25%;
+    height: 350px;
+}
+
+/*Log in page css*/
+.log_in_page_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: center;
+    background-color: #8D8C8C;
+}
+.log_in_page_nav > a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 3px 1%;
+}
+.log_in_page_nav > p {
+    display: flex;
+    color: #FFFFFF;
+    margin: 3px 1%;
+}
+.log_in_page_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.log_in_page_header > img {
+    margin: 5px 10px 10px 30px;
+    width: 10%;
+}
+.log_in_page_header > h1 {
+    position: relative;
+    top: 20px;
+    font-size: 60px;
+    margin: 5px 10px;
+}
+.SIMPLE_Orange {
+    color: #DE4F11;
+}
+.log_in_page_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px 0px;
+    background-color:#034266;
+}
+.log_in_page_main > h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+}
+
+/*Log in form*/
+.log_in_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 29%;
+    margin: 50px 10px;
+
+}
+.log_in_form > h1 {
+    margin: 10px 30px;
+}
+.log_in_form > button,label {
+    align-self: center;
+    width: 85%;
+    height: 8%;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    border: 0;
+}
+.log_in_form > button {
+    background-color: #DE4F11;
+}
+#sign_in_button {
+    width: 60%;
+    height: 7%;
+    font-size: 20px;
+    background-color: rgba(246, 70, 14, 0.61);;
+}
+.log_in_form > label > input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: #D9D9D9;
+}
+.log_in_form > label > input::placeholder {
+    margin: 1px 10px;
+    font-weight: bold;
+}
+.log_in_form > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.log_in_form > div > span {
+    height: 1px;
+    width: 30%;
+    background-color: #000000;
+}
+.log_in_form > div > p {
+    display: flex;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #DE4F11;
+    margin: 5px;
+}
