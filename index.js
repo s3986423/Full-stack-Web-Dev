@@ -13,6 +13,10 @@ app.get ('/RegisterVendor', (req,res) => {
     res.render('RegisterVendor')
 });
 
+app.get ('/SignUpVendor', (req,res) => {
+    res.render('SignUpVendor')
+});
+
 app.get ('/LogIn', (req,res) => {
     res.render('LogIn')
 });

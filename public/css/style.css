@@ -1,5 +1,6 @@
 /*header and footer css*/
 body {
+    text-align: center;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #D9D9D9;
@@ -116,6 +117,7 @@ body {
 .footer > div > h1 {
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 .footer > p {
     margin: 5px 0px;
@@ -123,6 +125,10 @@ body {
 }
 
 /*from here it's Register Vendor page css*/
+.register_vendor_main {
+    display: flex;
+    flex-direction: column;
+}
 .sign_up_banner {
     display: flex;
     flex-direction: column;
@@ -180,7 +186,6 @@ body {
     height: 270px;
     width: 270px;
 }
-/*rememeber to change*/
 .why_with_SIMPLE {
     display: flex;
     flex-direction: column;
@@ -189,21 +194,77 @@ body {
 .why_with_SIMPLE > h1 {
     font-size: 40px;
     font-weight: bold;
-}
-.scrollable {
-    overflow: auto;
-    white-space: nowrap;
+    margin: 28px 0px 10px 0px;
 }
 .div_container {
+    display: flex;
+    margin: 15px 0px;
     width: 100%;
-    height: 400px;
+    height: 380px;
 }
-.div_container > div {
-    display: inline-block;
+.Reasons_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: #034266;
     margin: 10px;
-    width: 25%;
+    width: 20%;
     height: 350px;
+}
+.Reasons_container > h1,p {
+    display: flex;
+    justify-content: center;
+    white-space: normal;
+    color: white;
+    margin: 15px 15px;
+}
+.learn_more_how_to_sell_with_SIMPLE {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    width: 90%;
+    height:400px;
+    background-color: #91A7C8;
+    margin: 0px 0px 20px 0px;
+}
+.learn_more_how_to_sell_with_SIMPLE > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.learn_more_how_to_sell_with_SIMPLE > div > div {
+    width: 25%;
+    height: 100%;
+    background-color: #D9D9D9;
+}
+.learn_more_how_to_sell_with_SIMPLE > div > div > h1 {
+    color: #034266;
+    margin: 20px 10px;
+}
+.learn_more_how_to_sell_with_SIMPLE > div > div > p {
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    white-space: normal;
+    margin: 15px 15px;
+}
+.learn_more_how_to_sell_with_SIMPLE > h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #D9D9D9;
+    color: #034266;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
 }
 
 /*Log in page css*/
@@ -287,6 +348,7 @@ body {
 }
 .log_in_form > button {
     background-color: #DE4F11;
+    cursor: pointer;
 }
 #sign_in_button {
     width: 60%;
@@ -323,4 +385,71 @@ body {
     text-align: center;
     color: #DE4F11;
     margin: 5px;
+}
+/*SignUpVendor page's css*/
+.sign_up_vendor_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign_up_vendor_create_account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #034266;
+}
+.vendor_sign_up_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+    margin: 30px 0px;
+    width: 70%;
+    height: 800px;
+    background-color: white;
+}
+.vendor_sign_up_form > label > input {
+    border: 0;
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #B8B7B7;
+}
+.vendor_sign_up_form > label > input::placeholder {
+    color: #000000;
+    font-size: bolder;
+}
+#vendor_image_input {
+    color: #000000;
+    width: 180px;
+    border-radius: 0;
+    background-color: transparent;
+}
+#vendor_display_image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #B8B7B7;
+    background-position: center;
+    background-size: cover;
+}
+.vendor_sign_up_form_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DE4F11;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: 0;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
 }
