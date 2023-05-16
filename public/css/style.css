@@ -18,7 +18,7 @@ body {
 .header_text_container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
