@@ -117,6 +117,12 @@ body {
     font-size: 20px;
     color: white;
 }
+.footer > div > h1 > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
 .footer > p {
     margin: 5px 0px;
     color: white;
@@ -137,7 +143,10 @@ body {
 .sell_with_SIMPLE > h1 {
     color: #FFFFFF;
 }
-.sell_with_SIMPLE > button {
+.sell_with_SIMPLE > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 47px;
     height: 40px;
@@ -148,6 +157,7 @@ body {
     border: 0;
     background-color: #DE4F11;
     cursor: pointer;
+    text-decoration: none;
 }
 .become_an_simple_seller {
     display: flex;
@@ -163,7 +173,10 @@ body {
     font-size: 60px;
     margin: 0px;
 }
-.become_an_simple_seller > button {
+.become_an_simple_seller > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 15%;
     height: 50px;
     font-size: 20px;
@@ -175,6 +188,7 @@ body {
     cursor: pointer;
     position: relative;
     right: 40px;
+    text-decoration: none;
 }
 .become_an_simple_seller > img {
     height: 270px;
@@ -195,6 +209,8 @@ body {
     white-space: nowrap;
 }
 .div_container {
+    display: flex;
+    margin: 15px 0px;
     width: 100%;
     height: 400px;
 }
@@ -323,4 +339,71 @@ body {
     text-align: center;
     color: #DE4F11;
     margin: 5px;
+}
+/*SignUpVendor page's css*/
+.sign_up_vendor_main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign_up_vendor_create_account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background-color: #034266;
+}
+.vendor_sign_up_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+    margin: 30px 0px;
+    width: 70%;
+    height: 800px;
+    background-color: white;
+}
+.vendor_sign_up_form > label > input {
+    border: 0;
+    height: 35px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #B8B7B7;
+}
+.vendor_sign_up_form > label > input::placeholder {
+    color: #000000;
+    font-size: bolder;
+}
+#vendor_image_input {
+    color: #000000;
+    width: 180px;
+    border-radius: 0;
+    background-color: transparent;
+}
+#vendor_display_image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #B8B7B7;
+    background-position: center;
+    background-size: cover;
+}
+.vendor_sign_up_form_submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DE4F11;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    border: 0;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
 }

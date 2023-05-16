@@ -1,0 +1,23 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+<main class="help_page_main">
+    <form action="" method="post" class="help_page_form">
+        <h1>HELPS</h1>
+        <label for="help_name">
+            <input type="text" id="help_name" placeholder="Your name" name="help_name">
+        </label>
+        <label for="help_phone">
+            <input type="tel" id="help_phone" placeholder="Phone number" name="help_phone">
+        </label>
+        <label for="help_email">
+            <input type="email" id="help_email" placeholder="Email" name="help_email">
+        </label>
+        <label for="help_description" class="help_description">
+           <textarea id="help_description" name="help_description" rows="15" cols="60">Help Detailed Description</textarea>
+        </label>
+        <button type="submit">
+            SUBMIT
+        </button>
+    </form>
+</main>
+<%- include('partials/footer') %>

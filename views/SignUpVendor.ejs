@@ -1,0 +1,41 @@
+<%- include('partials/head') %>
+<%- include('partials/header') %>
+<main class="sign_up_vendor_main">
+    <section class="sign_up_vendor_create_account">Create Account</section>
+    <form action="" method="post" class="vendor_sign_up_form">
+        <h1>Your Image</h1>
+        <div id="vendor_display_image"></div>
+        <label for="vendor_image_input">
+            <input type="file" id="vendor_image_input" name="vendor_image_input" accept="image/png, image/jpeg, image/jpg">
+        </label>
+        <label for="vendor_name">
+            <input type="text" id="vendor_name" placeholder="Your Name" name="vendor_name">
+        </label>
+        <label for="vendor_birthday">
+            <input type="text" id="vendor_birthday" placeholder="Date of birth" name="vendor_birthday" onfocus="(this.type='date')" onblur="if(this.value==''){this.type='text'}">
+        </label>
+        <label for="vendor_username">
+            <input type="text" id="vendor_username" placeholder="Username" name="vendor_username">
+        </label>
+        <label for="vendor_email">
+            <input type="email" id="vendor_email" placeholder="Email" name="vendor_email">
+        </label>
+        <label for="vendor_phone">
+            <input type="tel" id="vendor_phone" placeholder="Phone Number" name="vendor_phone">
+        </label>
+        <label for="business_name">
+            <input type="text" id="business_name" placeholder="Business Name" name="business_name">
+        </label>
+        <label for="business_address">
+            <input type="text" id="business_address" placeholder="Business Address" name="business_address">
+        </label>
+        <label for="password">
+            <input type="password" id="password" placeholder="Password" name="password">
+        </label>
+        <label for="re_enter_password">
+            <input type="password" id="re_enter_password" placeholder="Re-Enter Password" name="re_enter_password">
+        </label>
+        <button type="submit" class="vendor_sign_up_form_submit">Next</button>
+    </form>
+</main>
+<%- include('partials/footer') %>
